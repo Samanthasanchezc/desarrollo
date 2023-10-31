@@ -1,0 +1,30 @@
+%boton{
+    background-color: #A88B64;
+    border: 1px;
+}
+%head{
+    background-color: #D7B39C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+%product{
+    border: black 5px;
+    background-color: #F4F3F3;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+%flex{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+%cat{
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    text-align: center;
+    font-weight: $bold;
+}

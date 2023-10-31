@@ -1,0 +1,16 @@
+@mixin index($f,$g,$mt){
+    font-size: $f;
+    gap: $g;
+    margin-top: $mt;
+}
+@mixin main($ga,$ml){
+    grid-area: $ga;
+    margin-left: $ml;
+}
+@mixin img($w){
+    width: $w;
+    height: auto;
+}
+@mixin margin ($m){
+    margin-left: $m;
+}

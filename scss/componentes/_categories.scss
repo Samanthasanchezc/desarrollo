@@ -1,0 +1,39 @@
+div.gallery {
+    margin: 25px;
+    border: 1px solid #ccc;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+.grid{
+    display: grid;
+    grid-template-columns: 300px 50px;
+    margin-left: 30%;
+}
+.catbed{
+    background-image: url(..//);
+    padding: 100px 85px;
+    @extend %cat;
+}
+.catdin{
+    background-image: url(../);
+    padding: 100px 70px;
+    @extend %cat;
+}
+.catliv{
+    background-image: url(../);
+    padding: 100px 70px;
+    @extend %cat;
+}

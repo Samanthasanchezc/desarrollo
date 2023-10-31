@@ -1,0 +1,34 @@
+.ulfootertamanoli a{
+    font-size: 18px;
+    font-style: italic;
+}
+.footerblack p{
+    font-weight: $bold;
+    font-size: 18px;
+}
+footer{
+    @extend %flex;
+    background-color: $bg;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.imgfooter{
+    width: 100px;
+    height: 50px;
+    margin-top: 20%;
+}
+.iconsfooter{
+    @extend %head;
+}
+.text{
+    @include  margin (20%)
+}
+.text2{
+    @include  margin (35%)
+}
+.text3{
+    @include  margin (45%)
+}
+.icon{
+    margin: 0px 10px 0px;
+}

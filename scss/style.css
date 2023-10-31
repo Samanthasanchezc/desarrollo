@@ -1,0 +1,283 @@
+.botonconfle, .botonsinfle {
+  background-color: #A88B64;
+  border: 1px;
+}
+
+.iconsfooter, .padding, header nav ul li, .nav, header {
+  background-color: #D7B39C;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.productpequeno, .productindex {
+  border: black 5px;
+  background-color: #F4F3F3;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer, .productall, .categories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.catliv, .catdin, .catbed {
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  text-align: center;
+  font-weight: bold;
+}
+
+.nav {
+  padding: 10px;
+}
+
+header nav ul li {
+  padding: 20px;
+  align-items: center;
+}
+
+.padding {
+  padding: 0 70px 0 70px;
+}
+
+.productindex {
+  text-align: justify;
+}
+
+.explore {
+  margin-bottom: 20%;
+}
+
+.categories {
+  text-align: center;
+  font-size: 50px;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.main {
+  background-color: #D7B39C;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "h1 depa" "sub depa" "shopnow depa";
+}
+
+.depa {
+  width: 650px;
+  height: 587px;
+  grid-area: depa;
+  margin-bottom: 10%;
+}
+
+.sub {
+  justify-self: left;
+  grid-area: sub;
+  margin-left: 2%;
+}
+
+h1 {
+  grid-area: h1;
+  margin-left: 2%;
+}
+
+.shop {
+  grid-area: shopnow;
+  margin-left: 2%;
+}
+
+.rightabout {
+  text-align: justify;
+  font-size: 40px;
+}
+
+.aboutborder {
+  border-color: #D7B39C;
+  border-width: 20px;
+}
+
+div.gallery {
+  margin: 25px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px 50px;
+  margin-left: 30%;
+}
+
+.catbed {
+  background-image: url(..//);
+  padding: 100px 85px;
+}
+
+.catdin {
+  background-image: url(../);
+  padding: 100px 70px;
+}
+
+.catliv {
+  background-image: url(../);
+  padding: 100px 70px;
+}
+
+.productpequeno {
+  padding: auto;
+}
+
+.productall {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgproduct {
+  width: 100px;
+  height: auto;
+  margin-left: 45px;
+}
+
+.imgsillamobabi {
+  width: 150px;
+  height: auto;
+  margin-top: 25px;
+}
+
+.imgmesa {
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.imgcabecera {
+  width: 130px;
+  height: auto;
+}
+
+.imgno {
+  width: 150px;
+  height: auto;
+}
+
+.imgindi {
+  width: 120px;
+  height: auto;
+}
+
+.ulfootertamanoli a {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.footerblack p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #D7B39C;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.imgfooter {
+  width: 100px;
+  height: 50px;
+  margin-top: 20%;
+}
+
+.text {
+  margin-left: 20%;
+}
+
+.text2 {
+  margin-left: 35%;
+}
+
+.text3 {
+  margin-left: 45%;
+}
+
+.icon {
+  margin: 0px 10px 0px;
+}
+
+* {
+  font-family: roboto;
+}
+
+h1 {
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.img {
+  width: 65%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: hidden;
+}
+
+.botonsinfle {
+  width: 140px;
+  height: 60px;
+  margin-left: 5%;
+  padding: 7px;
+}
+
+.botonconfle {
+  padding: 24px 20px;
+  margin-top: 50%;
+}
+
+.rojo {
+  color: red;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+}
+
+.codigodep {
+  color: #7B7167;
+}
+
+text {
+  text-align: justify;
+}
+
+.margin {
+  margin-top: 50px;
+}/*# sourceMappingURL=style.css.map */

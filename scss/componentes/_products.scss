@@ -1,0 +1,29 @@
+.productpequeno{
+    padding: auto;
+    @extend %product;
+}
+.productall{
+    @extend %flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgproduct{
+    @include img (100px);
+    margin-left: 45px;
+}
+.imgsillamobabi{
+    @include img (150px);
+    margin-top: 25px;
+}
+.imgmesa{
+    @include img (150px);
+    margin-top: 20px;
+}
+.imgcabecera{
+    @include img (130px);
+}
+.imgno{
+    @include img (150px);
+}
+.imgindi{
+    @include img (120px);}

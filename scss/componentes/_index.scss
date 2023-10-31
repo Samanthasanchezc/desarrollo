@@ -1,0 +1,12 @@
+.productindex{
+    @extend %product;
+    text-align: justify;
+}
+.explore{
+    margin-bottom: 20%;
+}
+.categories{
+    text-align: center;
+    @extend %flex;
+    @include index (50px,20px,50px)
+}

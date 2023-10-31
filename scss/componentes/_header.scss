@@ -1,0 +1,22 @@
+header{
+    @extend %head;
+}
+.nav{
+    padding: 10px;
+    @extend %head;
+}
+header{
+    nav{
+        ul{
+            li{
+                @extend %head;
+                padding: 20px;
+                align-items: center;
+            }
+        }
+    }
+}
+.padding{
+    @extend %head;
+    padding: 0 70px 0 70px;
+}

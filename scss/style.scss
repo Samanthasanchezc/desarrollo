@@ -1,0 +1,60 @@
+@import "../scss/base/vars.scss";
+@import "../scss/base/maps.scss";
+@import "../scss/base/extend.scss";
+@import "../scss/base/mixin.scss";
+@import "../scss/componentes/header";
+@import "../scss/componentes/index";
+@import "../scss/componentes/main";
+@import "../scss/componentes/about";
+@import "../scss/componentes/categories";
+@import "./componentes/products";
+@import "./componentes/footer";
+
+* { font-family:$font ;}
+h1 {
+    color: $color;
+}
+a {
+    color: $color;
+}
+.bold{
+    font-weight: $bold;
+}
+.img{
+    width: map-get($img, w);
+    height: map-get($img, h );
+    display: map-get($img, di );
+    flex-direction: map-get($img, fd );
+    justify-content: map-get($img, of );
+}
+.botonsinfle{
+    width: 140px;
+    height: 60px;
+    margin-left: 5%;
+    padding: 7px;
+    @extend %boton;
+}
+.botonconfle{
+    padding: 24px 20px;
+    margin-top: 50%;
+    @extend %boton;
+}
+.rojo{
+    color: $red;
+    font-weight: $bold;
+}
+ul{
+    list-style: none;
+    a{
+        text-decoration: none;
+    }
+}
+.codigodep{
+    color: #7B7167;
+}
+text{
+    text-align: justify;
+}
+.margin{
+    margin-top: 50px;
+}
