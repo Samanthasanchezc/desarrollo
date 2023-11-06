@@ -1,8 +1,14 @@
 .rightabout{
     text-align: justify;
     font-size: 40px;
+    border: 20px;
 }
 .aboutborder{
+    width: auto;
     border-color: $bg;
-    border-width: 20px;
+    border-width: 50px;
+    padding: 10%;
+}
+.title{
+    font-size: 45px;
 }

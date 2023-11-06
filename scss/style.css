@@ -94,11 +94,18 @@ h1 {
 .rightabout {
   text-align: justify;
   font-size: 40px;
+  border: 20px;
 }
 
 .aboutborder {
+  width: auto;
   border-color: #D7B39C;
-  border-width: 20px;
+  border-width: 50px;
+  padding: 10%;
+}
+
+.title {
+  font-size: 45px;
 }
 
 div.gallery {
@@ -184,6 +191,29 @@ div.desc {
   height: auto;
 }
 
+.all {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "info map" "escri map" "bottom bottom";
+}
+
+.escri {
+  width: 547px;
+  height: 248px;
+  margin-top: 20px;
+  grid-area: escri;
+}
+
+.info {
+  justify-content: space-between;
+  grid-area: info;
+  margin-top: 10%;
+}
+
+.map {
+  grid-area: map;
+}
+
 .ulfootertamanoli a {
   font-size: 18px;
   font-style: italic;
@@ -256,6 +286,8 @@ a {
 .botonconfle {
   padding: 24px 20px;
   margin-top: 50%;
+  margin-left: 80%;
+  grid-area: bottom;
 }
 
 .rojo {

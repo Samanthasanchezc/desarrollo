@@ -1,0 +1,23 @@
+.all{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "info map"
+    "escri map"
+    "bottom bottom"
+    ;
+}
+.escri{
+    width: 547px;
+    height: 248px;
+    margin-top: 20px;
+    grid-area: escri;
+}
+.info{
+    justify-content: space-between;
+    grid-area: info;
+    margin-top: 10%;
+}
+.map{
+    grid-area: map;
+}
