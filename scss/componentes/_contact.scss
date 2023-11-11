@@ -2,16 +2,16 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-areas: 
-    "info map"
-    "escri map"
-    "bottom bottom"
+    "info es"
+    "map es"
+    "bot bot"
     ;
 }
 .escri{
     width: 547px;
     height: 248px;
     margin-top: 20px;
-    grid-area: escri;
+    grid-area: es;
 }
 .info{
     justify-content: space-between;

@@ -36,11 +36,13 @@ a {
     @extend %boton;
 }
 .botonconfle{
-    padding: 24px 20px;
-    margin-top: 50%;
+    padding: 20px 50px;
+    margin-top: 5%;
     @extend %boton;
-    margin-left: 80%;
-    grid-area: bottom;
+    margin-left: 60%;
+    grid-area: bot;
+    border-radius: 6px;
+    margin-bottom: 10px;
 }
 .rojo{
     color: $red;
