@@ -1,11 +1,13 @@
 .productpequeno{
     padding: auto;
     @extend %product;
+    border-radius: 10px;
 }
 .productall{
     @extend %flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 60px;
 }
 .imgproduct{
     @include img (100px);

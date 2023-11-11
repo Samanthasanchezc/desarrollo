@@ -156,11 +156,13 @@ div.desc {
 
 .productpequeno {
   padding: auto;
+  border-radius: 10px;
 }
 
 .productall {
   justify-content: space-between;
   align-items: center;
+  border-radius: 60px;
 }
 
 .imgproduct {
@@ -217,6 +219,17 @@ div.desc {
 
 .map {
   grid-area: map;
+}
+
+.now {
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+}
+
+.es {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
 .ulfootertamanoli a {

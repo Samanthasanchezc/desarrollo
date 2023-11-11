@@ -21,3 +21,12 @@
 .map{
     grid-area: map;
 }
+.now{
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+.es{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
