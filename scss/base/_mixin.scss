@@ -31,3 +31,16 @@
         @content;  
     }
 }
+@mixin abo ($h,$wi,$medida){
+    @media screen and  (max-width:$medida){
+        height: $h; width: $wi;
+        font-size: 20px;
+        @content;  
+    }
+}
+@mixin con ($h,$wi,$medida){
+    @media screen and  (max-width:$medida){
+        height: $h; width: $wi;
+        @content;  
+    }
+}

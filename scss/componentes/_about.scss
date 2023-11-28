@@ -2,9 +2,11 @@
     text-align: justify;
     font-size: 40px;
     border: 20px;
+    @include abo (68%,95%,1200px);
 }
 .aboutborder{
     width: 965px;
+    @include abo (25%,58%,1200px);
     height: auto;
     border: 6px solid $bg;
     border-radius: 20px;

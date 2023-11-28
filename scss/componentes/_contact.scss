@@ -6,27 +6,33 @@
     "map es"
     "bot bot"
     ;
+    @include con (68px,78px,1200);
 }
 .escri{
     width: 547px;
     height: 248px;
     margin-top: 20px;
     grid-area: es;
+    @include con (68px,78px,1200);
 }
 .info{
     justify-content: space-between;
     grid-area: info;
     margin-top: 10%;
+    @include con (68px,78px,1200);
 }
 .map{
     grid-area: map;
+    @include con (68px,78px,1200);
 }
 .now{
     flex-wrap: nowrap;
     margin-bottom: 10px;
+    @include con (68px,78px,1200);
 }
 .es{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    @include con (68px,78px,1200);
 }

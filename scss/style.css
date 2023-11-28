@@ -98,6 +98,13 @@ h1 {
   font-size: 40px;
   border: 20px;
 }
+@media screen and (max-width: 1200px) {
+  .rightabout {
+    height: 68%;
+    width: 95%;
+    font-size: 20px;
+  }
+}
 
 .aboutborder {
   width: 965px;
@@ -109,6 +116,13 @@ h1 {
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 13%;
+}
+@media screen and (max-width: 1200px) {
+  .aboutborder {
+    height: 25%;
+    width: 58%;
+    font-size: 20px;
+  }
 }
 
 .title {
@@ -245,6 +259,12 @@ div.desc {
   grid-template-columns: 50% 50%;
   grid-template-areas: "info es" "map es" "bot bot";
 }
+@media screen and (max-width: 1200) {
+  .all {
+    height: 68px;
+    width: 78px;
+  }
+}
 
 .escri {
   width: 547px;
@@ -252,26 +272,56 @@ div.desc {
   margin-top: 20px;
   grid-area: es;
 }
+@media screen and (max-width: 1200) {
+  .escri {
+    height: 68px;
+    width: 78px;
+  }
+}
 
 .info {
   justify-content: space-between;
   grid-area: info;
   margin-top: 10%;
 }
+@media screen and (max-width: 1200) {
+  .info {
+    height: 68px;
+    width: 78px;
+  }
+}
 
 .map {
   grid-area: map;
+}
+@media screen and (max-width: 1200) {
+  .map {
+    height: 68px;
+    width: 78px;
+  }
 }
 
 .now {
   flex-wrap: nowrap;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 1200) {
+  .now {
+    height: 68px;
+    width: 78px;
+  }
+}
 
 .es {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+}
+@media screen and (max-width: 1200) {
+  .es {
+    height: 68px;
+    width: 78px;
+  }
 }
 
 .ulfootertamanoli a {
