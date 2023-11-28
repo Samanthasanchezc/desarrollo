@@ -1,6 +1,7 @@
 .botonconfle, .botonsinfle {
   background-color: #A88B64;
   border: 1px;
+  font: black;
 }
 
 .iconsfooter, .padding, header nav ul li, .nav, header {
@@ -52,6 +53,7 @@ header nav ul li {
 
 .explore {
   margin-bottom: 20%;
+  color: black;
 }
 
 .categories {
@@ -118,25 +120,65 @@ div.gallery {
   border: 1px solid #ccc;
   width: 180px;
 }
+@media screen and (max-width: 1200px) {
+  div.gallery {
+    height: auto;
+    width: 98px;
+    margin: 10%;
+    grid-template-columns: 180px 50px;
+  }
+}
 
 div.gallery:hover {
   border: 1px solid #777;
+}
+@media screen and (max-width: 1200px) {
+  div.gallery:hover {
+    height: auto;
+    width: 88px;
+    margin: 10%;
+    grid-template-columns: 180px 50px;
+  }
 }
 
 div.gallery img {
   width: 100%;
   height: auto;
 }
+@media screen and (max-width: 1200px) {
+  div.gallery img {
+    height: auto;
+    width: 78px;
+    margin: 10%;
+    grid-template-columns: 180px 50px;
+  }
+}
 
 div.desc {
   padding: 15px;
   text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  div.desc {
+    height: auto;
+    width: 78px;
+    margin: 10%;
+    grid-template-columns: 180px 50px;
+  }
 }
 
 .grid {
   display: grid;
   grid-template-columns: 300px 50px;
   margin-left: 30%;
+}
+@media screen and (max-width: 1200px) {
+  .grid {
+    height: auto;
+    width: 78px;
+    margin: 10%;
+    grid-template-columns: 180px 50px;
+  }
 }
 
 .catbed {
@@ -308,6 +350,14 @@ a {
   grid-area: bot;
   border-radius: 6px;
   margin-bottom: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .botonconfle {
+    height: 50px;
+    width: 38px;
+    margin: 10%;
+    color: black;
+  }
 }
 
 .rojo {

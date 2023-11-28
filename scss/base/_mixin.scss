@@ -14,3 +14,20 @@
 @mixin margin ($m){
     margin-left: $m;
 }
+@mixin cel ($h,$wi,$medida){
+    @media screen and (max-width: $medida){
+        height: $h; width: $wi;
+        margin: 10%;
+        color: black;
+        @content;   
+    }
+    
+}
+@mixin g ($h,$wi,$medida){
+    @media screen and  (max-width:$medida){
+        height: $h; width: $wi;
+        margin: 10%;
+        grid-template-columns: 180px 50px;
+        @content;  
+    }
+}
